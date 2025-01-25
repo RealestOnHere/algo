@@ -1822,7 +1822,7 @@
 
     function checkauth()
         local success, response = pcall(function()
-            return --game:HttpGet("https://pastebin.com/raw/wDHweahJ")
+            return game:HttpGet("https://pastebin.com/raw/fUCP7Gdm")
         end)
 
         if not success then
